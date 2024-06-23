@@ -31,7 +31,7 @@ const Todo = () => {
       </div>
       <div className="todo-list">
         {todos.map((todo, index) => {
-          return <TodoItem todo={todo} index={index} remove={remove}/>
+          return <TodoItem todo={todo} index={index} remove={remove}/>  
         })}
       </div>
     </div>
